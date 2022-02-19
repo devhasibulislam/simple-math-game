@@ -6,12 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Math Game</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- CSS files -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
+    <main class="main-box">
+        <section class="score-box">Score: <span id="score">00</span></section>
+        <section class="question-box">Over!</section>
+        <section class="suggestion-box">
+            <span class="suggest">✅correct</span>
+            <span class="suggest">❎wrong</span>
+        </section>
+        <section class="choice-box">
+            <div id="box-1" class="box">A</div>
+            <div id="box-2" class="box">B</div>
+            <div id="box-3" class="box">C</div>
+            <div id="box-4" class="box">D</div>
+        </section>
+        <section class="control-box">Click me!</section>
+    </main>
     <!-- JavaScript file -->
     <script src="script.js"></script>
 </body>

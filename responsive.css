@@ -1,0 +1,55 @@
+@media (max-width: 768px) {
+    body {
+        height: 50vh;
+    }
+
+    .box {
+        padding: 1.6rem;
+    }
+}
+
+@media (max-width: 390px) {
+    body {
+        height: 50vh;
+    }
+
+    .question-box {
+        font-size: 50px;
+    }
+
+    .box {
+        padding: .5rem;
+        font-size: 20px;
+    }
+
+    .suggestion-box {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .suggest {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        height: 80vh;
+    }
+
+    .question-box {
+        font-size: 30px;
+    }
+
+    .suggest {
+        font-size: 10px;
+    }
+
+    .box {
+        font-size: 15px;
+    }
+
+    .control-box {
+        font-size: 15px;
+    }
+}
